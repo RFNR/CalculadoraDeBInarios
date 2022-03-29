@@ -1,11 +1,10 @@
 function decimalABinario(num){
 
-    let resto, binario = [];
+    let binario = [];
 
     for(let i = num ; i > 0; i = Math.floor(i/2)){
 
-        resto = i%2;
-        binario.unshift(resto);
+        binario.unshift(i%2);
 
     }
     
